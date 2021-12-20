@@ -6,5 +6,12 @@ body {
     background-image: url("images/h_img.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+    height: 105vh;
+    color: white;
+}
+.header img:first-child {
+    margin-top: 17rem;
+}
+.header img:last-child {
+    margin-top: 15rem;
 }
