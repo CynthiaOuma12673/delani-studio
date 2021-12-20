@@ -2,3 +2,9 @@
 body {
     font-family: Roboto, san-serif;
 }
+.header {
+    background-image: url("images/h_img.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
