@@ -27,6 +27,15 @@ body {
 }
 
 /* paragraphs */
+p {
+    line-height: 2.5rem;
+}
 p span {
     display: block;
+}
+/* about us */
+
+.about-us{
+    margin-top: 3rem;
+    height: 40vh;
 }
