@@ -47,3 +47,16 @@ p span {
     height: 50vh;
     color: white;
 }
+
+/* what we do */
+.what-we-do {
+    height: 60vh;
+}
+.icons {
+    display: flex;
+    align-items: center;
+}
+.what-we-do  div img {
+    height: 90px;
+    width: 90px;
+}
