@@ -65,12 +65,12 @@ p span {
 }
 /* portfolio */
 .portfolio {
-    height: 70vh;
+    height: 60vh;
 }
 
 .portfolio img {
-    width: 300px;
-    height: 250px;
+    width: 250px;
+    height: 200px;
     padding: 1rem;
 }
 /* contacts */
