@@ -80,6 +80,7 @@ p span {
 }
 .subscription h3{
     padding: 1rem;
+    margin-top: 1rem;
 }
 .subscription input {
     width: 30rem;
