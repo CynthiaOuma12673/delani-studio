@@ -50,11 +50,14 @@ p span {
 
 /* what we do */
 .what-we-do {
-    height: 60vh;
+    height: 70vh;
+}
+.what-we-do h3 {
+    padding: 2rem;
 }
 .icons {
     display: flex;
-    align-items: center;
+    justify-content: space-around;
 }
 .what-we-do  div img {
     height: 90px;
