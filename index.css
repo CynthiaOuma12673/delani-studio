@@ -63,6 +63,7 @@ p span {
 .icons {
     display: flex;
     justify-content: space-around;
+    margin-left: 5rem;
 }
 .what-we-do  div img {
     height: 90px;
