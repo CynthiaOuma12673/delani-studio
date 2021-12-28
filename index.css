@@ -68,6 +68,9 @@ p span {
     height: 90px;
     width: 90px;
 }
+.paragraph {
+    display: none;
+}
 /* portfolio */
 .portfolio {
     height: 60vh;
