@@ -71,4 +71,10 @@ p span {
     padding: 1rem;
 }
 /* contacts */
+.subscription {
+    background-image: url('images/c_image.jpg');
+    height: 80vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 
