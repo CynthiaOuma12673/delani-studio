@@ -50,7 +50,7 @@ p span {
 
 /* what we do */
 .what-we-do {
-    height: 70vh;
+    height: 60vh;
 }
 .icons {
     display: flex;
@@ -67,3 +67,10 @@ p span {
 .portfolio h3 {
     padding: 2rem;
 }
+.portfolio img {
+    width: 250px;
+    height: 200px;
+    justify-content: space-between;
+}
+/* contacts */
+
