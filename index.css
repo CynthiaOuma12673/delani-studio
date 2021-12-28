@@ -64,9 +64,7 @@ p span {
 .portfolio {
     height: 70vh;
 }
-.portfolio h3 {
-    padding: 2rem;
-}
+
 .portfolio img {
     width: 300px;
     height: 250px;
