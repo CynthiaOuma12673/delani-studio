@@ -77,4 +77,15 @@ p span {
     background-size: cover;
     background-repeat: no-repeat;
 }
-
+.subscription h3{
+    padding: 1rem;
+}
+.subscription input {
+    width: 30rem;
+}
+.subscription textarea{
+    width: 60rem;
+    height: 18rem;
+    margin-left: 3rem;
+    margin-top: .5rem;
+}
