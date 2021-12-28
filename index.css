@@ -76,16 +76,23 @@ p span {
     height: 80vh;
     background-size: cover;
     background-repeat: no-repeat;
+    color: white;
 }
 .subscription h3{
     padding: 1rem;
 }
 .subscription input {
     width: 30rem;
+    background-color: rgb(0, 0, 0, 0);
+    color: white;
+    border-color: white;
 }
 .subscription textarea{
     width: 60rem;
     height: 18rem;
     margin-left: 3rem;
     margin-top: .5rem;
+    background-color: rgb(0, 0, 0, 0);
+    color: white;
+    border-color: white;
 }
