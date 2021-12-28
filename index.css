@@ -46,7 +46,12 @@ p span {
     background-repeat: no-repeat;
     height: 50vh;
     color: white;
+
 }
+.services h3 {
+    padding: 3rem;
+} 
+
 
 /* what we do */
 .what-we-do {
