@@ -85,7 +85,14 @@ p span {
 .portfolio {
     height: 60vh;
 }
-
+.portfolio-one {
+    display: flex;
+    margin-left: 18rem;
+}
+.portfolio-two {
+    display: flex;
+    margin-left: 18rem;
+}
 .portfolio img {
     width: 250px;
     height: 200px;
