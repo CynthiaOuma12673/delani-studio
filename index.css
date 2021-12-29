@@ -27,7 +27,10 @@ body {
 }
 
 /* paragraphs */
-p {
+.about-us p {
+    line-height: 2.5rem;
+}
+.services p {
     line-height: 2.5rem;
 }
 p span {
