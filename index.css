@@ -69,7 +69,13 @@ p span {
     height: 90px;
     width: 90px;
 }
-.paragraph {
+#para-one {
+    display: none;
+}
+#para-two {
+    display: none;
+}
+#para-three {
     display: none;
 }
 /* portfolio */
