@@ -7,14 +7,14 @@ body {
     background-image: url("images/h_img.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 105vh;
+    height: 115vh;
     color: white;
 }
 .header img:first-child {
     margin-top: 17rem;
 }
 .header img:last-child {
-    margin-top: 9rem;
+    margin-top: 10rem;
 }
 .header h1 {
     margin-top: 2rem;
