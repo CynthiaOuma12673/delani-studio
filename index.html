@@ -119,43 +119,41 @@
     <div class="portfolio">
         <h3 class="text-center">PORTFOLIO</h3>
         <div class="text-center">
-        <div class="portfolio-one">
-            <div class="portfolio-images">
-                <img src="images/work4.jpg">
-                <div class="text">PROJECT ONE</div>
+        <div class='row' id="portfolio-one">
+            <div class="col-md-3">
+                <img src="images/work4.jpg" id="port1">
+                <p class="text" id="proj1">PROJECT ONE</p>
             </div>
 
-            <div class="portfolio-images">
-                <img src="images/work3.jpg">
-                <div class="text">PROJECT ONE</div>
+            <div class="col-md-3">
+                <img src="images/work3.jpg" id="port2">  
+                <p class="text" id="proj2">PROJECT TWO</p>
             </div>
             
-            <div class="portfolio-images">
-                <img src="images/work2.jpg">
-                <div class="text">PROJECT ONE</div>
+            <div class="col-md-3">
+                <img src="images/work2.jpg" id="port3">
+                <p class="text" id="proj3">PROJECT THREE</p>
             </div>
             
-            <div class="portfolio-images">
-                <img src="images/work1.jpg">
-                <div class="text">PROJECT ONE</div>
+            <div class="col-md-3" >
+                <img src="images/work1.jpg" id="port4">
+                <p class="text" id="proj4">PROJECT FOUR</p>
             </div>
-        </div>
-        <div class="portfolio-two">
-            <div class="portfolio-images">
-                <img src="images/work5.jpg">
-                <div class="text">PROJECT ONE</div>
+            <div class="col-md-3" >
+                <img src="images/work5.jpg"id="port5">
+                <p class="text" id="proj5">PROJECT FIVE</p>
             </div>
-            <div class="portfolio-images">
-                <img src="images/work6.jpg">
-                <div class="text">PROJECT ONE</div>
+            <div class="col-md-3" >
+                <img src="images/work6.jpg"id="port6" >
+                <p class="text" id="proj6">PROJECT SIX</p>
             </div>
-            <div class="portfolio-images">
-                <img src="images/work7.jpg">
-                <div class="text">PROJECT ONE</div>
+            <div class="col-md-3" >
+                <img src="images/work7.jpg" id="port7">
+                <p class="text" id="proj7">PROJECT SEVEN</p>
             </div>
-            <div class="portfolio-images">
-                <img src="images/work8.jpg">
-                <div class="text">PROJECT ONE</div>
+            <div class="col-md-3" >
+                <img src="images/work8.jpg" id="port8">
+                <p class="text" id="proj8">PROJECT EIGHT</p>
             </div>
         </div>
     </div>
@@ -163,14 +161,14 @@
     <!-- contact us -->
     <div class="subscription">
     <div class="text-center">
-    <form name="form">
+    <form>
         <h3>CONTACT US</h3>
     <div class="contact">
-        <input type="text" id="name" name="name" value="Name">
-        <input type="text" id="email" name="email" value="Email">
-    </div>
-    <textarea rows="10" cols="50" name="comment" form="usrform" value="Your message here">Your message here....</textarea>
-    
+        <input type="text" id="name" name="name" placeholder="Name...">
+        <input type="text" id="email" name="email" placeholder="Email....">
+        <textarea rows="10" cols="50" id="comment" form="usrform" placeholder="Your message here"></textarea>
+        <button type="submit" class="btn btn-primary col-md-1">Submit</button>
+</div>
     </form>
     </div>
 </div>
