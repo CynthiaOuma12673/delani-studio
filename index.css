@@ -102,13 +102,13 @@ p span {
     position: absolute;
     font-weight: bold;
     display: none; 
-    width: 8rem;
-    height: 2rem;
-    background-color: white;
+    width: 10rem;
+    height: 6rem;
+    background-color: rgba(255, 255, 255, .5);
     /* display: flex; 
     justify-content: center; */
     /* align-items: center; */
-    margin: -7rem 7rem;
+    margin: -10rem 3rem;
 }
 /* contacts */
 .subscription {
