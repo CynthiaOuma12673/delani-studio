@@ -104,3 +104,35 @@ $(document).ready(function(){
     });
 });
 
+// forms validation
+function getAlert() {
+    var name=document.getElementById('name').value;
+    var email=document.getElementById('email').value;
+    var message=document.getElementById('comment').value;
+    var inputValues= inputName(); inputEmail(); inputMessage();
+
+    // name validation
+    function inputName(){
+        if (name==''){
+            alert('input name');
+            return false;
+        }
+    }
+    console.log(name)
+    // email validation
+    function inputEmail(){
+        if (email==''){
+            alert('input email');
+            return false;
+        }
+    }
+
+    // message validation 
+    function inputMessage(){
+        if (message==''){
+            alert('input message');
+            return false;
+        }
+    }
+    alert('thank you' + name + 'we have received your message we are glad you reached out to us')
+};
