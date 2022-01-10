@@ -7,7 +7,7 @@ body {
     background-image: url("images/h_img.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 115vh;
+    height: 105vh;
     color: white;
 }
 .header img:first-child {

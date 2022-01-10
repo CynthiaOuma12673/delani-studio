@@ -109,7 +109,6 @@ function getAlert() {
     var name=document.getElementById('name').value;
     var email=document.getElementById('email').value;
     var message=document.getElementById('comment').value;
-    var inputValues= inputName(); inputEmail(); inputMessage();
 
     // name validation
     function inputName(){
